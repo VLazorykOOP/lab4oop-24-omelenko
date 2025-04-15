@@ -281,7 +281,7 @@ ComplexVector& ComplexVector::operator*=(const long& b) {
 }
 ComplexDouble ComplexVector::operator*(const ComplexVector& b)  //  r= a0*b0+a1*b1+...+an-1*bn-1
 {
-	//	ComplexVector rez(*this);
+
 	return *this * b;
 }
 ComplexVector ComplexVector::operator%(const ComplexVector& b)  // (a0*b0, a1*b1,...,an-1*bn-1)

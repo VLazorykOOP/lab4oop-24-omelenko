@@ -139,17 +139,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BusSchedule.cpp" />
     <ClCompile Include="ComplexMatrix.cpp" />
     <ClCompile Include="ComplexVector.cpp" />
     <ClCompile Include="Lab4Exmaple.cpp" />
+    <ClCompile Include="MatrixUShort.cpp" />
     <ClCompile Include="MyAssoc.cpp" />
     <ClCompile Include="OOPLab4T.cpp" />
+    <ClCompile Include="Tasks.cpp" />
+    <ClCompile Include="VectorUShort.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BusSchedule.h" />
     <ClInclude Include="ComplexMatrix.h" />
     <ClInclude Include="ComplexVector.h" />
     <ClInclude Include="Lab4Exmaple.h" />
+    <ClInclude Include="MatrixUShort.h" />
     <ClInclude Include="MyAssoc.h" />
+    <ClInclude Include="Tasks.h" />
+    <ClInclude Include="VectorUShort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
